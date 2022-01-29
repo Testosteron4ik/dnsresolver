@@ -1,0 +1,8 @@
+[Unit]
+Description=Unbound DNS-Request Redirecting
+ 
+[Service]
+ExecStart=/etc/unbound/redirecting.sh
+ 
+[Install]
+WantedBy=multi-user.target
